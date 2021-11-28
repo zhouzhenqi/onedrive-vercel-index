@@ -9,8 +9,9 @@
   ],
   "footer": "Powered by <a class=\"hover:underline\" href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>. Made with ❤ by SpencerWoo.",
   "protectedRoutes": [
-    "/",
-    "/🥟 Some test files/Protected route"
+    "/🌞 Private folder",
+    "/🥟 Some test files/Protected route",
+    "/1"
   ],
   "contact": {
     "email": "mailto:xxx@gmail.com",
