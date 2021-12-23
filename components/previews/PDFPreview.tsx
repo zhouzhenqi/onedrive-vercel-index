@@ -26,7 +26,7 @@ const PDFPreview: FunctionComponent<{ file: any }> = ({ file }) => {
   return (
     <>
       <div
-        className="dark:bg-gray-900 md:p-3 no-scrollbar flex flex-col w-full overflow-scroll bg-white rounded shadow"
+        className="dark:bg-gray-900 md:p-3 no-scrollbar flex flex-col w-full overflow-scroll bg-white rounded"
         style={{ maxHeight: '90vh' }}
       >
         <div className="no-scrollbar flex-1 w-full overflow-scroll" ref={pdfContainter} style={{ maxHeight: '80vh' }}>
@@ -37,6 +37,10 @@ const PDFPreview: FunctionComponent<{ file: any }> = ({ file }) => {
             loading={<Loading loadingText={loadingText} />}
             onLoadProgress={({ loaded, total }) => {
               setLoadingText(`Loading PDF ${Math.round((loaded / total) * 100)}%`)
+            }}
+            options={{
+              cMapUrl: `//cdn.jsdelivr.net/npm/pdfjs-dist@${pdfjs.version}/cmaps/`,
+              cMapPacked: true,
             }}
           >
             <Page
