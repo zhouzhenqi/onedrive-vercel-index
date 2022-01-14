@@ -1,8 +1,8 @@
 {
-  "userPrincipalName": "spencer.woo@outlook.com",
+  "userPrincipalName": "XXXX@XXX.com",
   "icon": "/icons/128.png",
-  "title": "Spencer's OneDrive",
-  "baseDirectory": "/Public",
+  "title": "zzq's OneDrive",
+  "baseDirectory": "/",
   "maxItems": 100,
   "googleFontSans": "Inter",
   "googleFontMono": "Fira Mono",
@@ -11,10 +11,11 @@
   ],
   "footer": "Powered by <a href=\"https://github.com/spencerwooo/onedrive-vercel-index\" target=\"_blank\" rel=\"noopener noreferrer\">onedrive-vercel-index</a>. Made with ❤ by SpencerWoo.",
   "protectedRoutes": [
-    "/🌞 Private folder/u-need-a-password",
-    "/🥟 Some test files/Protected route"
+    "/🌞 Private folder",
+    "/🥟 Some test files/Protected route",
+    "/1"
   ],
-  "email": "mailto:spencer.wushangbo@gmail.com",
+  "email": "mailto:xxx@xxx.com",
   "links": [
     {
       "name": "GitHub",
@@ -22,7 +23,7 @@
     },
     {
       "name": "Telegram",
-      "link": "https://t.me/realSpencerWoo"
+      "link": "https://xxx"
     }
   ]
 }
