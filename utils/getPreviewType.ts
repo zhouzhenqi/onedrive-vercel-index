@@ -40,7 +40,6 @@ const extensions = {
   py: preview.code,
   css: preview.code,
   html: preview.code,
-  ts: preview.code,
   vue: preview.code,
   json: preview.code,
   yaml: preview.code,
@@ -56,6 +55,7 @@ const extensions = {
   mov: preview.video,
   avi: preview.video, // won't work!
   m2ts: preview.video,
+  ts: preview.video,
 
   mp3: preview.audio,
   m4a: preview.audio,
