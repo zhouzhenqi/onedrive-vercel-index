@@ -55,6 +55,7 @@ const extensions = {
   mkv: preview.video,
   mov: preview.video,
   avi: preview.video, // won't work!
+  m2ts: preview.video,
 
   mp3: preview.audio,
   m4a: preview.audio,
