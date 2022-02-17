@@ -1,9 +1,0 @@
-{
-  "clientId": "98687c5e-5927-4ac6-8fc4-7b68e018fc78",
-  "obfuscatedClientSecret": "U2FsdGVkX1/R1zHYkDQ0Izx9bXCRZC1WcyjziwfJeK/1yRAhYTbvWC3sgXm289XkL8HnZAe943WkGwnbbcrjng==",
-  "redirectUri": "http://localhost",
-  "authApi": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
-  "driveApi": "https://graph.microsoft.com/v1.0/me/drive",
-  "scope": "user.read files.read.all offline_access",
-  "directLinkRegex": "209zzq-my[.]sharepoint[.]com"
-}
