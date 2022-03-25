@@ -159,7 +159,8 @@ const VideoPreview: FC<{ file: OdFileObject }> = ({ file }) => {
             btnImage="/players/vlc.png"
           />
           <DownloadButton
-            onClickCallback={() => window.open(`potplayer://${getBaseUrl()}/${videoUrl}`)}
+            //onClickCallback={() => window.open(`potplayer://${getBaseUrl()}/${videoUrl}`)}
+            onClickCallback={() => window.open(`potplayer://${file['@microsoft.graph.downloadUrl']}`)}
             btnText="PotPlayer"
             btnImage="/players/potplayer.png"
           />
